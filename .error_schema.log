@@ -1,0 +1,5 @@
+<string>:27:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element idx, got introduction
+<string>:27:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element introduction there
+<string>:27:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element sidebyside, got introduction
+<string>:27:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element proof, got introduction
+<string>:27:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element exercise, got introduction
