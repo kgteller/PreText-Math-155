@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "",
   "title": "Syllabus",
-  "body": " Syllabus        Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
+  "body": " Syllabus        Course Information  This is the syllabus for Introduction to Modern Statistics With Computer Applications (MATH 155, section 701) for Summer 2026. It is a 3 credit course.    Instructor  Prof.\/Dr. Tell, Office Location, kgteller@salisbury.edu.edu .    Office Hours  By appointment    Class meets  Asynchronous    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
 },
 {
   "id": "sec-course-info2-2",
@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "course name (MATH xxx, section xxx) "
+  "body": "Introduction to Modern Statistics With Computer Applications (MATH 155, section 701) "
 },
 {
   "id": "notes-week-01",
