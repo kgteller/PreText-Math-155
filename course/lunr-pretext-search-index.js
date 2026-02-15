@@ -1,0 +1,86 @@
+var ptx_lunr_search_style = "textbook";
+var ptx_lunr_docs = [
+{
+  "id": "syllabus3",
+  "level": "1",
+  "url": "syllabus3.html",
+  "type": "Section",
+  "number": "",
+  "title": "Syllabus",
+  "body": " Syllabus        Course Information  This is the syllabus for course name (MATH xxx, section xxx) for [term] 20xx. It is a [n] credit course.    Instructor  Prof. Lastname, Office Location, prof.lastname@example.edu .    Student Hours  TBD    Class meets  course times and location.    Course Description  course description from catalog    Prerequisite  list of prerequisites    Textbook and course materials   textbook name by textbook author.       Course Overview        Assessments and Grades     "
+},
+{
+  "id": "sec-course-info2-2",
+  "level": "2",
+  "url": "syllabus3.html#sec-course-info2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "course name (MATH xxx, section xxx) "
+},
+{
+  "id": "notes-week-01",
+  "level": "1",
+  "url": "notes-week-01.html",
+  "type": "Handout",
+  "number": "",
+  "title": "Note 1: Sampling, Types of Data",
+  "body": " Note 1: Sampling, Types of Data   This is an outline of the topics we covered in the first week of class.    Objectives     Construct a simple random sample    Determine when samples of convenience are acceptable    Describe stratified sampling, cluster sampling, systematic sampling, and voluntary response sampling    Distinguish between statistics and parameters       1 Background and Definitions  In the months leading up to an election, polls often tell us the percentages of voters that prefer each of the candidates. How do pollsters obtain this information?   Ideal case: ask the opinion of every registered voter.   Workable: contact a relatively small number of voters, and use the information from these voters to predict the preferences of the entire group of voters.  The process of polling requires two major steps:                   Monday 8\/22      Wednesday 8\/24      Friday 8\/26     "
+},
+{
+  "id": "notes-week-02",
+  "level": "1",
+  "url": "notes-week-02.html",
+  "type": "Section",
+  "number": "",
+  "title": "Week 2",
+  "body": " Week 2   Monday      Wednesday      Friday     "
+},
+{
+  "id": "activity-01-intro-activity",
+  "level": "1",
+  "url": "activity-01-intro-activity.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Introduction Activity",
+  "body": " Introduction Activity    This is the introduction to the activity.      This is the first exercise.    "
+},
+{
+  "id": "activity-01-intro-activity-3",
+  "level": "2",
+  "url": "activity-01-intro-activity.html#activity-01-intro-activity-3",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  This is the first exercise.   "
+},
+{
+  "id": "handouts",
+  "level": "1",
+  "url": "handouts.html",
+  "type": "Chapter",
+  "number": "",
+  "title": "Handouts",
+  "body": " Handouts    "
+},
+{
+  "id": "homework",
+  "level": "1",
+  "url": "homework.html",
+  "type": "Chapter",
+  "number": "",
+  "title": "Homework",
+  "body": " Homework    "
+}
+]
+
+var ptx_lunr_idx = lunr(function () {
+  this.ref('id')
+  this.field('title')
+  this.field('body')
+  this.metadataWhitelist = ['position']
+
+  ptx_lunr_docs.forEach(function (doc) {
+    this.add(doc)
+  }, this)
+})
