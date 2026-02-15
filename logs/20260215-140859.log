@@ -1,0 +1,11 @@
+INFO    : Staging deployment according to strategy pelican_default
+INFO    : Staging `course` at `/Users/kgteller/Desktop/PreText/output/stage/course`.
+INFO    : Staging generated site at `/Users/kgteller/Desktop/PreText/output/stage`.
+INFO    : XSL conversion of /Users/kgteller/Desktop/PreText/source/main.ptx by /Users/kgteller/.ptx/2.36.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/kgteller/.ptx/2.36.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Deployment is now staged at `/Users/kgteller/Desktop/PreText/output/stage`.
+INFO    : Preparing to deploy from active `main` git branch.
+
+INFO    : Changes to project source since last commit detected.
+INFO    : Committing these changes to local Git repository.
+
