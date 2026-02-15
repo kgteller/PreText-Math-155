@@ -12,23 +12,23 @@
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
-      It is a [n] credit course.
+      This is the syllabus for <term>Introduction to Modern Statistics With Computer Applications (MATH 155, section 701)</term> for Summer 2026.
+      It is a 3 credit course.
       <!-- use a description list (dl) for short items -->
       <dl>
         <li>
           <title>Instructor</title>
 
           <p>
-            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+            Prof./Dr. Tell, Office Location, <url href="mailto:kgteller@Salisbury.edu">kgteller@salisbury.edu.edu</url>.
           </p>
         </li>
 
         <li>
-          <title>Student Hours</title>
+          <title>Office Hours</title>
 
           <p>
-            TBD
+            By appointment
           </p>
         </li>
 
@@ -36,7 +36,7 @@
           <title>Class meets</title>
 
           <p>
-            course times and location.
+            Asynchronous
           </p>
         </li>
 
